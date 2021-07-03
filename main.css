@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	bbackground: black;
+	color:red;
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	padding: 12px 0;
+	width:100%;
+	background:#72E6F4;
+	position: fixed;
+	z-index: 999;
+}
+.logo img{
+	width:50px;
+}
+.menu{
+	height: 100%;
+}
+.menu ul {
+	height: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu ul li {
+	margin: 0 20px;
+}
+.menu ul li a {
+	color:red;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 500;
+}
+.button {
+	display: flex;
+	align-items: center;
+}
+.btn{
+	padding: 10px 40px;
+	background:#0920FF;
+	color:white;
+	text-decoration: none;
+}
+.btn:hover{
+	background: red;
+}
+main{
+	padding: 100px 80px 0 80px;
+}
+
+.container-1 h1 {
+	font-size: 60px;
+	padding-left: 80px;
+}
+.container-1 h2 {
+	font-size: 40px;
+	padding-left: 80px;
+}
+.thongtin{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.box img {
+	width:30px;
+	height:30px
+}
+.box{
+	display: flex;
+	padding-left: 80px;
+}
+.lienhe{
+	font-size:20px;
+	padding-left: 10px;
+}
+img {
+	width:100%;	
+}
+.container-2{
+	padding-top: 200px
+}
+.box-kynang{
+	width: 200px;
+	padding-left: 80px
+}
+.box-kynang img {
+	width:150px
+}
+.container-2 h3 {
+	font-size:70px;
+	padding-left: 100px;
+}
+.container-2 h4 {
+	font-size:40px;
+	padding-left: 70px;
+}
+.container-3{
+	padding-top: 100px;
+}
+.container-3 h5 {
+	font-size:70px;
+	padding-left: 100px;
+}
+.container-3 h6 {
+	font-size:20px;
+	padding-left: 80px
+}
+.kinhnghiem{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container-3 img{
+	width:300px;
+}
+.hinh2{
+	padding-left: 300px
+}
+.container-4 h7{
+	font-size:70px;
+	padding-left: 100px;
+}
+.tab{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.tabcontent{
+	border: 1px solid black;
+	animation: fadeEffect 1s;
+}
+.tablinks{
+	padding: 5px 20px;
+	background: blue;
+	color:white;
+	border:none;
+	font-size: 17px;
+	cursor: pointer;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tab button:hover {
+  background-color: #ccc;
+}
+footer{
+	background: black;
+	height:200px;
+}
+.logofooter{
+	width: 100px;
+	padding: 50px 0 50px 200px
+}
+.ttinlienhe{
+	padding: 50px 0 50px 0;
+	font-size:18px
+}
+.col-1{
+	padding:50px 0 50px 20px; 
+}
